@@ -22,7 +22,7 @@ Besides, you should download the BERT model checkpoint in format of huggingface 
 
 ## 生成预训练数据
 
-代码库提供了最简单易懂的预训练任务 ```rand``` , 随机从文档中选取1~5个词作为query, 构造数据用来预训练。代码见 ```tasks/rand/``` 
+代码库提供了最简单易懂的预训练任务 ```rand```。该任务随机从文档中选取1~5个词作为query, 用来demo面向IR的预训练。代码见 ```tasks/rand/``` 
 
 生成rand预训练任务数据命令:
 ```cd tasks/rand && bash gen.sh```
@@ -54,7 +54,7 @@ Besides, you should download the BERT model checkpoint in format of huggingface 
 | PROP-MARCO | 0.4201 |
 | PROP-WIKI | 0.4188 |
 | BERT-Base | 0.4184 |
-| Rand | 0.4123 |
+| rand | 0.4123 |
 
 
 ## ~~Homework~~
