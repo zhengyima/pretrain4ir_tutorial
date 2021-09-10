@@ -65,3 +65,12 @@ Besides, you should download the BERT model checkpoint in format of huggingface 
 - 编写你自己的预训练数据生成脚本, 放到 ```tasks/yourtask``` 目录下。
 - 使用以上脚本, 生成自己的预训练数据。
 - 运行代码库提供的pre-train与fine-tune脚本, 跑出结果, 更新Leaderboard。
+
+## Links
+- [Wikipedia dump](https://dumps.wikimedia.org/enwiki/)
+- [WikiExtractor](https://github.com/attardi/wikiextractor)
+- [MS MARCO Document Ranking](https://github.com/microsoft/MSMARCO-Document-Ranking)
+- [TREC 2019 Deep Learning](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019.html)
+- [PyTorch](https://pytorch.org)
+- [Huggingface Transformers](https://huggingface.co/)
+
