@@ -27,9 +27,10 @@ Besides, you should download the BERT model checkpoint in format of huggingface 
 生成rand预训练任务数据命令:
 ```cd tasks/rand && bash gen.sh```
 
-**Notes**: 需要先将 ```gen.sh``` 脚本中的 ```msmarco_docs_path``` 参数改为MSMARCO数据集的 [文档tsv](https://msmarco.blob.core.windows.net/msmarcoranking/msmarco-docs.tsv.gz) 路径; 将```bert_model```参数改为下载好的bert模型目录; 
-
 你可以自己编写脚本, 仿照rand任务, 生成你自己认为合理的预训练任务的数据。
+
+**Notes**: 运行rand任务的shell之前, 你需要先将 ```gen.sh``` 脚本中的 ```msmarco_docs_path``` 参数改为MSMARCO数据集的 [文档tsv](https://msmarco.blob.core.windows.net/msmarcoranking/msmarco-docs.tsv.gz) 路径; 将```bert_model```参数改为下载好的bert模型目录; 
+
 
 ## 模型预训练
 
