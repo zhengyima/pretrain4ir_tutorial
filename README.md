@@ -35,7 +35,7 @@ Besides, you should download the BERT model checkpoint in format of huggingface 
 
 代码库提供了模型预训练的相关代码, 见```pretrain```。该代码完成了MLM+NSP两个任务的预训练。
 
-模型预训练任务:
+模型预训练命令:
 ```cd pretrain && bash train_bert.sh```
 
 **Notes**: 注意要修改```train_bert```中的相应参数：将```bert_model```参数改为下载好的bert模型目录;  ```train_file```改为你上一步生成好的预训练数据文件路径。
@@ -44,7 +44,7 @@ Besides, you should download the BERT model checkpoint in format of huggingface 
 
 代码库提供了在MSMARCO Document Ranking任务上进行Fine-tune的相关代码。见```finetune```。该代码完成了在MSMARCO上通过point-wise进行fine-tune的流程。
 
-模型fine-tune任务:
+模型fine-tune命令:
 ```cd finetune && bash train_bert.sh```
 
 ## Leaderboard
