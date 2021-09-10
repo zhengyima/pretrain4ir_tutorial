@@ -6,7 +6,7 @@ NLPIR tutorial: pretrain for IR. pre-train on raw textual corpus, fine-tune on M
 代码包括了如下部分:
 - ```tasks/``` : 生成预训练数据  
 - ```pretrain/```: 在生成的数据上Pre-training(MLM + NSP) 
-- ```finetune/```: Fine-tuning on MS MARCO
+- ```finetune/```: Fine-tuning on [MS MARCO](https://github.com/microsoft/MSMARCO-Document-Ranking)
 
 
 ## Preinstallation
