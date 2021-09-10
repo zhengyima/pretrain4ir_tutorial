@@ -7,7 +7,7 @@ from tqdm import tqdm
 parser = argparse.ArgumentParser()
 parser.add_argument("--msmarco_docs_path",type=str,help='refer to https://github.com/microsoft/MSMARCO-Document-Ranking')
 parser.add_argument("--bert_model",type=str,help='bert model checkpoint dir, download from huggingface')
-parser.add_argument("--output_file",type=str, 'output path of the generated datas')
+parser.add_argument("--output_file",type=str, help='output path of the generated datas')
 parser.add_argument("--docs_limit",type=int,default=10000000000)
 parser.add_argument("--mlm_prob",type=float,default=0.15)
 args = parser.parse_args()
