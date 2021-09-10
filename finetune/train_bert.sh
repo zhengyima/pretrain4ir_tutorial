@@ -1,0 +1,13 @@
+python runBert.py \
+		--is_training \
+		--per_gpu_batch_size 1 --per_gpu_test_batch_size 80 \
+		--bert_model /home/dou/replearn/pretrain4ir_tutorial/pretrain/output1 \
+		--dataset_script_dir /home/dou/replearn/anchors/data_scripts \
+		--dataset_cache_dir /tmp/negs_tutorial_cache \
+		--log_path ./log.txt \
+		--train_file /home/dou/replearn//anchors-master/data/train \
+		--dev_file  /home/dou/replearn//anchors-master/data/dev/all.json \
+		--dev_id_file /home/dou/replearn//anchors-master/data/dev/ids.tsv \
+		--msmarco_score_file_path ./score_bert.txt \
+		--msmarco_dev_qrel_path /home/dou/replearn//anchors-master/data/msmarco/msmarco-docdev-qrels.tsv \
+		--save_path ./pytorch_model.bin > bert.bs8.pointwise.log
